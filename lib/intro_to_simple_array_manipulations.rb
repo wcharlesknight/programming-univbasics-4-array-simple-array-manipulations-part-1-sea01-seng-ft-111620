@@ -29,6 +29,10 @@ def using_shift(array)
   array.shift 
 end
 
+my_favorite_cities = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
+
+using_shift(my_favorite_cities)
+
 def shift_with_args(array)
   array.shift(2)
 end
